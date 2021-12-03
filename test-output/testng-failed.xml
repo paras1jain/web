@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Educollab Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Educollab App Test Cases(failed)">
+    <classes>
+      <class name="com.edu.qa.testcases.QuestionBankTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ValidateQuestionBank" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.edu.qa.testcases.QuestionBankTest -->
+      <class name="com.edu.qa.testcases.AddCourseTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="AddcourseSubmit" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.edu.qa.testcases.AddCourseTest -->
+    </classes>
+  </test> <!-- Educollab App Test Cases(failed) -->
+</suite> <!-- Failed suite [Educollab Application Test Automation Test Suite] -->

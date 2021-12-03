@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 4, Errors: 0, Skipped: 26, Time elapsed: 0.872 sec <<< FAILURE! - in TestSuite
+setUp(com.edu.qa.testcases.AddCourseTest)  Time elapsed: 0.621 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\praga\Downloads\chromedriver_win32\chromedriver.exe
+	at com.edu.qa.testcases.AddCourseTest.setUp(AddCourseTest.java:34)
+
+setUp(com.edu.qa.testcases.ForgotPasswordTest)  Time elapsed: 0.63 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\praga\Downloads\chromedriver_win32\chromedriver.exe
+	at com.edu.qa.testcases.ForgotPasswordTest.setUp(ForgotPasswordTest.java:24)
+
+setUp(com.edu.qa.testcases.LoginPageTest)  Time elapsed: 0.631 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\praga\Downloads\chromedriver_win32\chromedriver.exe
+	at com.edu.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:32)
+
+setUp(com.edu.qa.testcases.UserProfileTest)  Time elapsed: 0.667 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\praga\Downloads\chromedriver_win32\chromedriver.exe
+	at com.edu.qa.testcases.UserProfileTest.setUp(UserProfileTest.java:31)
+

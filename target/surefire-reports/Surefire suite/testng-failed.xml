@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.edu.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTestInvalid"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="loginLogoImageTest"/>
+          <include name="setUp"/>
+          <include name="logoutTest"/>
+          <include name="PasswordviewIcon"/>
+          <include name="tearDown"/>
+          <include name="landingPageTitleTest"/>
+        </methods>
+      </class> <!-- com.edu.qa.testcases.LoginPageTest -->
+      <class name="com.edu.qa.testcases.UserProfileTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="EditUserProfileInformation"/>
+          <include name="VerifyUserProfileInformation"/>
+        </methods>
+      </class> <!-- com.edu.qa.testcases.UserProfileTest -->
+      <class name="com.edu.qa.testcases.ForgotPasswordTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ForgotPassword"/>
+        </methods>
+      </class> <!-- com.edu.qa.testcases.ForgotPasswordTest -->
+      <class name="com.edu.qa.testcases.AddCourseTest">
+        <methods>
+          <include name="Addcourse"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="VerifyAddtocourseScreenlogo"/>
+          <include name="VerifyCourseScreenLogo"/>
+        </methods>
+      </class> <!-- com.edu.qa.testcases.AddCourseTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

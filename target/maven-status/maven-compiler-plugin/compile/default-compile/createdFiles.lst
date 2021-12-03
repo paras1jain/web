@@ -1,0 +1,12 @@
+com\edu\qa\pages\CoursePage.class
+com\edu\qa\util\TestUtil.class
+com\edu\qa\pages\LoginPage.class
+com\edu\qa\util\DbConnection.class
+com\edu\qa\pages\AddCoursePage.class
+com\edu\qa\pages\ForgotPasswordPage.class
+com\edu\qa\pages\HomePage.class
+com\edu\qa\util\WebEventListener.class
+com\edu\qa\pages\UserProfilePage.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\edu\qa\base\TestBase.class
+com\edu\qa\pages\LandingPage.class

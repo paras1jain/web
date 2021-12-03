@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Educollab Application Test Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Educollab_Application_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\hp\Desktop\New folder\Educollab2\Educollab2\src\main\resources\testng_sanity.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Educollab_Application_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Educollab_Application_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Educollab_Application_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Educollab_Application_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Educollab_Application_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Educollab_Application_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 2 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" class="hide-methods failed suite-Educollab_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Educollab_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" class="show-methods failed suite-Educollab_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-Educollab_Application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Educollab_Application_Test_Automation_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.AddCourseTest" class="method navigator-link" hash-for-method="AddcourseSubmit(pratibha.2@gmail.com, abcdefG1)">AddcourseSubmit(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.QuestionBankTest" class="method navigator-link" hash-for-method="ValidateQuestionBank(pratibha.2@gmail.com, abcdefG1)">ValidateQuestionBank(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Educollab_Application_Test_Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" class="hide-methods passed suite-Educollab_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Educollab_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" class="show-methods passed suite-Educollab_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-Educollab_Application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Educollab_Application_Test_Automation_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.AddCourseTest" class="method navigator-link" hash-for-method="AddcourseSubmitwithoutLive(pratibha.2@gmail.com, abcdefG1)">AddcourseSubmitwithoutLive(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.AddCourseTest" class="method navigator-link" hash-for-method="AddcoursesaveAsDraft(pratibha.2@gmail.com, abcdefG1)">AddcoursesaveAsDraft(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.UserProfileTest" class="method navigator-link" hash-for-method="EditUserProfileInformation(pratibha.2@gmail.com, abcdefG1)">EditUserProfileInformation(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="PasswordviewIcon(pratibhaaa@gmail.com, ab)">PasswordviewIcon(pratibhaaa@gmail.com, ab)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="PasswordviewIcon(pratibhaaa.2@gmail.com, ab)">PasswordviewIcon(pratibhaaa.2@gmail.com, ab)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.QuestionBankTest" class="method navigator-link" hash-for-method="ValidateQuestionBanklevel(pratibha.2@gmail.com, abcdefG1)">ValidateQuestionBanklevel(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.AddCourseTest" class="method navigator-link" hash-for-method="VerifyAddtocourseScreenlogo(pratibha.2@gmail.com, abcdefG1)">VerifyAddtocourseScreenlogo(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.AddCourseTest" class="method navigator-link" hash-for-method="VerifyCourseScreenLogo(pratibha.2@gmail.com, abcdefG1)">VerifyCourseScreenLogo(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.UserProfileTest" class="method navigator-link" hash-for-method="VerifyUserProfileInformation(pratibha.2@gmail.com, abcdefG1)">VerifyUserProfileInformation(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.AddCourseTest" class="method navigator-link" hash-for-method="Verifyselectcategory(pratibha.2@gmail.com, abcdefG1)">Verifyselectcategory(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="landingPageTitleTest">landingPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginLogoImageTest">loginLogoImageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(pratibha.2@gmail.com, abcdefG1)">loginTest(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTestInvalid(pratibhaaa.2@gmail.com, ab)">loginTestInvalid(pratibhaaa.2@gmail.com, ab)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTestInvalid(pratibhaaa@gmail.com, ab)">loginTestInvalid(pratibhaaa@gmail.com, ab)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" title="com.edu.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="logoutTest(pratibha.2@gmail.com, abcdefG1)">logoutTest(pratibha.2@gmail.com, abcdefG1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Educollab_Application_Test_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Educollab_Application_Test_Automation_Test_Suite" class="panel Educollab_Application_Test_Automation_Test_Suite">
+          <div class="suite-Educollab_Application_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.edu.qa.testcases.QuestionBankTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateQuestionBank(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- ValidateQuestionBank(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">ValidateQuestionBank</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-QF45DOT0&apos;, ip: &apos;192.168.100.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31d751d10e830379d9487871b79cf06b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:462)
+	at com.edu.qa.pages.QuestionBankPage.Questionlist(QuestionBankPage.java:65)
+	at com.edu.qa.pages.QuestionBankPage.InputQuestion(QuestionBankPage.java:56)
+	at com.edu.qa.testcases.QuestionBankTest.ValidateQuestionBank(QuestionBankTest.java:76)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Educollab_Application_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-Educollab_Application_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.edu.qa.testcases.AddCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddcourseSubmit(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- AddcourseSubmit(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">AddcourseSubmit</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@class=&apos;form-control ng-valid ng-touched ng-dirty&apos;]&apos; (tried for 90 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at com.edu.qa.util.TestUtil.waiting(TestUtil.java:124)
+	at com.edu.qa.pages.AddCoursePage.selectLive(AddCoursePage.java:176)
+	at com.edu.qa.testcases.AddCourseTest.AddcourseSubmit(AddCourseTest.java:143)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@class=&apos;form-control ng-valid ng-touched ng-dirty&apos;]&quot;}
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-QF45DOT0&apos;, ip: &apos;192.168.100.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 69e5922fbd5bf838594805d49e86eb2e
+*** Element info: {Using=xpath, value=//input[@class=&apos;form-control ng-valid ng-touched ng-dirty&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 28 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Educollab_Application_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-Educollab_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qa.testcases.UserProfileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditUserProfileInformation(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- EditUserProfileInformation(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">EditUserProfileInformation</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserProfileInformation(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- VerifyUserProfileInformation(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">VerifyUserProfileInformation</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Educollab_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Educollab_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PasswordviewIcon(pratibhaaa@gmail.com, ab)">
+                  </a> <!-- PasswordviewIcon(pratibhaaa@gmail.com, ab) -->
+                  <span class="method-name">PasswordviewIcon</span>
+                  <span class="parameters">(pratibhaaa@gmail.com, ab)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PasswordviewIcon(pratibhaaa.2@gmail.com, ab)">
+                  </a> <!-- PasswordviewIcon(pratibhaaa.2@gmail.com, ab) -->
+                  <span class="method-name">PasswordviewIcon</span>
+                  <span class="parameters">(pratibhaaa.2@gmail.com, ab)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="landingPageTitleTest">
+                  </a> <!-- landingPageTitleTest -->
+                  <span class="method-name">landingPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogoImageTest">
+                  </a> <!-- loginLogoImageTest -->
+                  <span class="method-name">loginLogoImageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- loginTest(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestInvalid(pratibhaaa.2@gmail.com, ab)">
+                  </a> <!-- loginTestInvalid(pratibhaaa.2@gmail.com, ab) -->
+                  <span class="method-name">loginTestInvalid</span>
+                  <span class="parameters">(pratibhaaa.2@gmail.com, ab)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestInvalid(pratibhaaa@gmail.com, ab)">
+                  </a> <!-- loginTestInvalid(pratibhaaa@gmail.com, ab) -->
+                  <span class="method-name">loginTestInvalid</span>
+                  <span class="parameters">(pratibhaaa@gmail.com, ab)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- logoutTest(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">logoutTest</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Educollab_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Educollab_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qa.testcases.QuestionBankTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateQuestionBanklevel(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- ValidateQuestionBanklevel(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">ValidateQuestionBanklevel</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Educollab_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Educollab_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qa.testcases.AddCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddcourseSubmitwithoutLive(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- AddcourseSubmitwithoutLive(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">AddcourseSubmitwithoutLive</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddcoursesaveAsDraft(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- AddcoursesaveAsDraft(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">AddcoursesaveAsDraft</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddtocourseScreenlogo(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- VerifyAddtocourseScreenlogo(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">VerifyAddtocourseScreenlogo</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCourseScreenLogo(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- VerifyCourseScreenLogo(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">VerifyCourseScreenLogo</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifyselectcategory(pratibha.2@gmail.com, abcdefG1)">
+                  </a> <!-- Verifyselectcategory(pratibha.2@gmail.com, abcdefG1) -->
+                  <span class="method-name">Verifyselectcategory</span>
+                  <span class="parameters">(pratibha.2@gmail.com, abcdefG1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Educollab_Application_Test_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel Educollab_Application_Test_Automation_Test_Suite -->
+        <div panel-name="test-xml-Educollab_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hp\Desktop\New folder\Educollab2\Educollab2\src\main\resources\testng_sanity.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Educollab Application Test Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Educollab App Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.edu.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.qa.testcases.UserProfileTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.qa.testcases.AddCourseTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.qa.testcases.QuestionBankTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Educollab App Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Educollab Application Test Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Educollab_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Educollab Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Educollab App Test Cases (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Educollab_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Educollab Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Educollab_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Educollab Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Educollab_Application_Test_Automation_Test_Suite');
+function tableData_Educollab_Application_Test_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AddcourseSubmit')
+data.setCell(0, 2, 'com.edu.qa.testcases.AddCourseTest')
+data.setCell(0, 3, 124082);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddcourseSubmitwithoutLive')
+data.setCell(1, 2, 'com.edu.qa.testcases.AddCourseTest')
+data.setCell(1, 3, 33359);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AddcoursesaveAsDraft')
+data.setCell(2, 2, 'com.edu.qa.testcases.AddCourseTest')
+data.setCell(2, 3, 32898);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EditUserProfileInformation')
+data.setCell(3, 2, 'com.edu.qa.testcases.UserProfileTest')
+data.setCell(3, 3, 1745);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Verifyselectcategory')
+data.setCell(4, 2, 'com.edu.qa.testcases.AddCourseTest')
+data.setCell(4, 3, 958);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateQuestionBank')
+data.setCell(5, 2, 'com.edu.qa.testcases.QuestionBankTest')
+data.setCell(5, 3, 925);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTestInvalid')
+data.setCell(6, 2, 'com.edu.qa.testcases.LoginPageTest')
+data.setCell(6, 3, 855);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTestInvalid')
+data.setCell(7, 2, 'com.edu.qa.testcases.LoginPageTest')
+data.setCell(7, 3, 839);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyAddtocourseScreenlogo')
+data.setCell(8, 2, 'com.edu.qa.testcases.AddCourseTest')
+data.setCell(8, 3, 837);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyUserProfileInformation')
+data.setCell(9, 2, 'com.edu.qa.testcases.UserProfileTest')
+data.setCell(9, 3, 836);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ValidateQuestionBanklevel')
+data.setCell(10, 2, 'com.edu.qa.testcases.QuestionBankTest')
+data.setCell(10, 3, 527);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyCourseScreenLogo')
+data.setCell(11, 2, 'com.edu.qa.testcases.AddCourseTest')
+data.setCell(11, 3, 452);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'logoutTest')
+data.setCell(12, 2, 'com.edu.qa.testcases.LoginPageTest')
+data.setCell(12, 3, 421);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PasswordviewIcon')
+data.setCell(13, 2, 'com.edu.qa.testcases.LoginPageTest')
+data.setCell(13, 3, 304);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PasswordviewIcon')
+data.setCell(14, 2, 'com.edu.qa.testcases.LoginPageTest')
+data.setCell(14, 3, 256);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginTest')
+data.setCell(15, 2, 'com.edu.qa.testcases.LoginPageTest')
+data.setCell(15, 3, 242);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginLogoImageTest')
+data.setCell(16, 2, 'com.edu.qa.testcases.LoginPageTest')
+data.setCell(16, 3, 102);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginPageTitleTest')
+data.setCell(17, 2, 'com.edu.qa.testcases.LoginPageTest')
+data.setCell(17, 3, 71);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'landingPageTitleTest')
+data.setCell(18, 2, 'com.edu.qa.testcases.LoginPageTest')
+data.setCell(18, 3, 11);
+window.suiteTableData['Educollab_Application_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Educollab_Application_Test_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Educollab_Application_Test_Automation_Test_Suite">
+              </div> <!-- times-div-Educollab_Application_Test_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Educollab_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Educollab Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Educollab_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Educollab_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">landingPageTitleTest</span>
+                <span class="method-start">6862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6875 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.UserProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserProfileInformation(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">14099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14936 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.AddCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyCourseScreenLogo(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">21339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21791 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.QuestionBankTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateQuestionBank(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">28628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateQuestionBanklevel(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">36226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36754 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">43880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43951 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.UserProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44088 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditUserProfileInformation(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">51017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52763 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.AddCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddtocourseScreenlogo(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">59668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60506 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLogoImageTest</span>
+                <span class="method-start">67144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67247 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.AddCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verifyselectcategory(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">74140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75099 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">75246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTestInvalid(pratibhaaa.2@gmail.com, ab)</span>
+                <span class="method-start">81675 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">82651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTestInvalid(pratibhaaa@gmail.com, ab)</span>
+                <span class="method-start">89450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90290 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.AddCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">90449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddcoursesaveAsDraft(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">97055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129955 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">130132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PasswordviewIcon(pratibhaaa.2@gmail.com, ab)</span>
+                <span class="method-start">136620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">136925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">137049 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PasswordviewIcon(pratibhaaa@gmail.com, ab)</span>
+                <span class="method-start">144210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">144467 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.AddCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">144613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddcourseSubmit(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">151547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">275632 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">275797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">282242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">282485 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.AddCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">282631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddcourseSubmitwithoutLive(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">289402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">322761 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">322953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutTest(pratibha.2@gmail.com, abcdefG1)</span>
+                <span class="method-start">330148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">330570 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

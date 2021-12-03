@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.edu.qa.testcases.AddCourseTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="AddcourseSubmit" invocation-numbers="0"/>
+          <include name="AddcoursesaveAsDraft" invocation-numbers="0"/>
+          <include name="AddcourseSubmitwithoutLive" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.edu.qa.testcases.AddCourseTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

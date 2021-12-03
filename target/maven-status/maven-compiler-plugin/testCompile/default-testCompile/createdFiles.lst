@@ -1,0 +1,4 @@
+com\edu\qa\testcases\ForgotPasswordTest.class
+com\edu\qa\testcases\LoginPageTest.class
+com\edu\qa\testcases\UserProfileTest.class
+com\edu\qa\testcases\AddCourseTest.class
